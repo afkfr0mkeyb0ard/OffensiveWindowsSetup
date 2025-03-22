@@ -64,6 +64,9 @@ downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/r
 downloadFile -Url "https://github.com/jpillora/chisel/releases/download/v1.10.1/chisel_1.10.1_linux_amd64.gz" -Destination $installPath"chisel_1.10.1_linux_amd64.gz"
 downloadFile -Url "https://github.com/jpillora/chisel/releases/download/v1.10.1/chisel_1.10.1_windows_amd64.gz" -Destination $installPath"chisel_1.10.1_windows_amd64.gz"
 
+# Coercer
+git clone https://github.com/p0dalirius/Coercer.git $installPath"Coercer"
+
 # ForgeCert
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/ForgeCert.exe" -Destination $installPath"ForgeCert.exe"
 
