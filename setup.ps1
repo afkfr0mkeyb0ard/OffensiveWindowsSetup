@@ -64,6 +64,9 @@ downloadFile -Url "https://github.com/lkarlslund/ldapnomnom/releases/download/v1
 # MFASweep
 downloadFile -Url "https://raw.githubusercontent.com/dafthack/MFASweep/refs/heads/master/MFASweep.ps1" -Destination $installPath"MFASweep.ps1"
 
+# Mimikatz
+git clone https://github.com/ParrotSec/mimikatz.git $installPath"mimikatz"
+
 # PowerZure
 git clone https://github.com/hausec/PowerZure.git $installPath"PowerZure"
 
