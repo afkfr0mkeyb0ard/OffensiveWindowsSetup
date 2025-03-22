@@ -46,6 +46,7 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 installChoco -Package "git"
+installChoco -Package "golang"
 refreshenv
 
 # adPEAS
@@ -53,6 +54,9 @@ downloadFile -Url "https://raw.githubusercontent.com/61106960/adPEAS/refs/heads/
 
 # adPEAS-Light
 downloadFile -Url "https://raw.githubusercontent.com/61106960/adPEAS/refs/heads/main/adPEAS-Light.ps1" -Destination $installPath"adPEAS-Light.ps1"
+
+# Bettercap
+go install github.com/bettercap/bettercap@latest
 
 # bloodyAD
 downloadFile -Url "https://github.com/CravateRouge/bloodyAD/releases/download/v2.1.9/bloodyAD.exe" -Destination $installPath"bloodyAD.exe"
