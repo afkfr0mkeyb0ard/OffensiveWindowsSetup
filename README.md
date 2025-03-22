@@ -19,6 +19,7 @@ AdPEAS-Light
 BloodyAD
 Ldapnomnom
 MFASweep
+Mimikatz
 PowerZure
 SharpHound
 Sysinternals
