@@ -48,6 +48,8 @@ if (Test-Path($ChocolateyProfile)) {
 installChoco -Package "git"
 installChoco -Package "golang"
 installChoco -Package "python"
+installChoco -Package "wireshark"
+installChoco -Package "nmap"
 refreshenv
 
 # adPEAS
