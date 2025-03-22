@@ -46,6 +46,7 @@ RestrictedAdmin
 Rubeus
 SafetyKatz
 Seatbelt
+Seclists
 SharpChrome
 SharpDPAPI
 SharpDump
