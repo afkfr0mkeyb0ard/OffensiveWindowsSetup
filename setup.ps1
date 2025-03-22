@@ -73,6 +73,11 @@ git clone https://github.com/gmh5225/CVE-2022-44721-CsFalconUninstaller.git $ins
 # ForgeCert
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/ForgeCert.exe" -Destination $installPath"ForgeCert.exe"
 
+# Ffuf
+downloadFile -Url https://github.com/ffuf/ffuf/releases/download/v2.1.0/ffuf_2.1.0_windows_amd64.zip -Destination $installPath"ffuf_2.1.0_windows_amd64.zip"
+Expand-Archive -Path $installPath"ffuf_2.1.0_windows_amd64.zip" -DestinationPath $installPath"ffuf_2.1.0" -Force
+Remove-Item $installPath"ffuf_2.1.0_windows_amd64.zip" -Force
+
 # Koh
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/Koh.exe" -Destination $installPath"Koh.exe"
 
