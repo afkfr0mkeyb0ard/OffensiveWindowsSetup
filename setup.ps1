@@ -117,6 +117,9 @@ downloadFile -Url https://github.com/Pennyw0rth/NetExec/releases/download/v1.3.0
 Expand-Archive -Path $installPath"nxc.exe.zip" -DestinationPath $installPath"netexec" -Force
 Remove-Item $installPath"nxc.exe.zip" -Force
 
+# PayloadEverything
+git clone https://github.com/afkfr0mkeyb0ard/PayloadEverything.git $installPath"PayloadEverything"
+
 # PowerZure
 git clone https://github.com/hausec/PowerZure.git $installPath"PowerZure"
 
