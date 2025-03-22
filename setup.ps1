@@ -82,6 +82,11 @@ downloadFile -Url https://github.com/ffuf/ffuf/releases/download/v2.1.0/ffuf_2.1
 Expand-Archive -Path $installPath"ffuf_2.1.0_windows_amd64.zip" -DestinationPath $installPath"ffuf_2.1.0" -Force
 Remove-Item $installPath"ffuf_2.1.0_windows_amd64.zip" -Force
 
+# Impacket
+downloadFile -Url https://github.com/maaaaz/impacket-examples-windows/releases/download/v0.9.17/impacket-examples-windows-v0.9.17.zip -Destination $installPath"impacket-windows.zip"
+Expand-Archive -Path $installPath"impacket-windows.zip" -DestinationPath $installPath"impacket-windows" -Force
+Remove-Item $installPath"impacket-windows.zip" -Force
+
 # Koh
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/Koh.exe" -Destination $installPath"Koh.exe"
 
