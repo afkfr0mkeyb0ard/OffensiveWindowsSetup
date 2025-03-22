@@ -50,6 +50,11 @@ installChoco -Package "golang"
 installChoco -Package "python"
 installChoco -Package "wireshark"
 installChoco -Package "nmap"
+installChoco -Package "googlechrome"
+installChoco -Package "firefox"
+installChoco -Package "7zip.install"
+installChoco -Package "notepadplusplus.install"
+installChoco -Package "putty.install"
 refreshenv
 
 # adPEAS
