@@ -162,6 +162,9 @@ downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/r
 # Seatbelt
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/Seatbelt.exe" -Destination $installPath"Seatbelt.exe"
 
+# SecLists
+git clone https://github.com/danielmiessler/SecLists.git $installPath"SecLists"
+
 # SharpChrome
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/SharpChrome.exe" -Destination $installPath"SharpChrome.exe"
 
