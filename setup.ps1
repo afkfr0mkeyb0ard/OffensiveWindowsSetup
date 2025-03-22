@@ -127,6 +127,9 @@ downloadFile -Url "https://raw.githubusercontent.com/dafthack/MFASweep/refs/head
 # Mimikatz
 git clone https://github.com/ParrotSec/mimikatz.git $installPath"mimikatz"
 
+# Minimalistic-offensive-security-tools
+git clone https://github.com/InfosecMatter/Minimalistic-offensive-security-tools.git $installPath"Minimalistic-offensive-security-tools"
+
 # Netexec
 downloadFile -Url https://github.com/Pennyw0rth/NetExec/releases/download/v1.3.0/nxc.exe.zip -Destination $installPath"nxc.exe.zip"
 Expand-Archive -Path $installPath"nxc.exe.zip" -DestinationPath $installPath"netexec" -Force
