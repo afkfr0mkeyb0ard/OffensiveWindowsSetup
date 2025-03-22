@@ -67,6 +67,9 @@ downloadFile -Url "https://github.com/jpillora/chisel/releases/download/v1.10.1/
 # Coercer
 git clone https://github.com/p0dalirius/Coercer.git $installPath"Coercer"
 
+# CsFalconUninstaller
+git clone https://github.com/gmh5225/CVE-2022-44721-CsFalconUninstaller.git $installPath"CVE-2022-44721-CsFalconUninstaller"
+
 # ForgeCert
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/ForgeCert.exe" -Destination $installPath"ForgeCert.exe"
 
