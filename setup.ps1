@@ -82,3 +82,4 @@ downloadFile -Url https://live.sysinternals.com/ADExplorer64.exe -Destination $i
 downloadFile -Url https://live.sysinternals.com/procdump64.exe -Destination $installPath"Sysinternals\procdump64.exe"
 downloadFile -Url https://live.sysinternals.com/Procmon64.exe -Destination $installPath"Sysinternals\Procmon64.exe"
 downloadFile -Url https://live.sysinternals.com/PsExec64.exe -Destination $installPath"Sysinternals\PsExec64.exe"
+downloadFile -Url https://live.sysinternals.com/tcpview64.exe -Destination $installPath"Sysinternals\tcpview64.exe"
