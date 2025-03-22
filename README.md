@@ -1,5 +1,5 @@
 # OffensiveWindowsSetup
-A PowerShell script to setup offensive Windows tools
+A PowerShell script to setup an offensive Windows machine 
 
 ### Setup
 - Install from the repo
