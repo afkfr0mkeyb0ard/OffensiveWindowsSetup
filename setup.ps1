@@ -88,6 +88,9 @@ downloadFile -Url https://github.com/maaaaz/impacket-examples-windows/releases/d
 Expand-Archive -Path $installPath"impacket-windows.zip" -DestinationPath $installPath"impacket-windows" -Force
 Remove-Item $installPath"impacket-windows.zip" -Force
 
+# Kerbrute
+downloadFile -Url https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_amd64.exe -Destination $installPath"kerbrute.exe"
+
 # Koh
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/Koh.exe" -Destination $installPath"Koh.exe"
 
@@ -128,6 +131,9 @@ git clone https://github.com/hausec/PowerZure.git $installPath"PowerZure"
 
 # PrivescCheck
 downloadFile -Url "https://raw.githubusercontent.com/itm4n/PrivescCheck/refs/heads/master/PrivescCheck.ps1" -Destination $installPath"PrivescCheck.ps1"
+
+# Responder
+git clone https://github.com/lgandx/Responder.git $installPath"Responder"
 
 # RestrictedAdmin
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/RestrictedAdmin.exe" -Destination $installPath"RestrictedAdmin.exe"
