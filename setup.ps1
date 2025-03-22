@@ -98,6 +98,11 @@ downloadFile -Url "https://github.com/lkarlslund/ldapnomnom/releases/download/v1
 # LockLess
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/LockLess.exe" -Destination $installPath"LockLess.exe"
 
+# Mentalist
+downloadFile -Url https://github.com/sc0tfree/mentalist/releases/download/v1.0/Mentalist-v1.0-Win.zip -Destination $installPath"Mentalist-v1.0-Win.zip"
+Expand-Archive -Path $installPath"Mentalist-v1.0-Win.zip" -DestinationPath $installPath"Mentalist" -Force
+Remove-Item $installPath"Mentalist-v1.0-Win.zip" -Force
+
 # MFASweep
 downloadFile -Url "https://raw.githubusercontent.com/dafthack/MFASweep/refs/heads/master/MFASweep.ps1" -Destination $installPath"MFASweep.ps1"
 
