@@ -103,6 +103,9 @@ downloadFile -Url https://github.com/sc0tfree/mentalist/releases/download/v1.0/M
 Expand-Archive -Path $installPath"Mentalist-v1.0-Win.zip" -DestinationPath $installPath"Mentalist" -Force
 Remove-Item $installPath"Mentalist-v1.0-Win.zip" -Force
 
+# Mentalist_chains 
+git clone https://github.com/afkfr0mkeyb0ard/Mentalist_chains.git $installPath"Mentalist_chains"
+
 # MFASweep
 downloadFile -Url "https://raw.githubusercontent.com/dafthack/MFASweep/refs/heads/master/MFASweep.ps1" -Destination $installPath"MFASweep.ps1"
 
