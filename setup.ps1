@@ -56,6 +56,11 @@ downloadFile -Url "https://raw.githubusercontent.com/61106960/adPEAS/refs/heads/
 # adPEAS-Light
 downloadFile -Url "https://raw.githubusercontent.com/61106960/adPEAS/refs/heads/main/adPEAS-Light.ps1" -Destination $installPath"adPEAS-Light.ps1"
 
+# Aquatone
+downloadFile -Url https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_windows_amd64_1.7.0.zip -Destination $installPath"aquatone_windows_amd64_1.7.0.zip"
+Expand-Archive -Path $installPath"aquatone_windows_amd64_1.7.0.zip" -DestinationPath $installPath"aquatone" -Force
+Remove-Item $installPath"aquatone_windows_amd64_1.7.0.zip" -Force
+
 # Bettercap
 go install github.com/bettercap/bettercap@latest
 
