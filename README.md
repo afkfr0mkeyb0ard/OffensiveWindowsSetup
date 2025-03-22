@@ -34,6 +34,7 @@ Mentalist
 Mentalist_chains 
 MFASweep
 Mimikatz
+Minimalistic-offensive-security-tools
 Netexec
 Nmap
 PayloadEverything
