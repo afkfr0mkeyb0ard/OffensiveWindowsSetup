@@ -1,5 +1,7 @@
 # OffensiveWindowsSetup
-A PowerShell script to setup an offensive Windows machine 
+A PowerShell script to setup an offensive Windows machine.
+
+**All tools are intended for legal and educational use only, use at your own risk.**
 
 ### Setup
 - Install from the repo
