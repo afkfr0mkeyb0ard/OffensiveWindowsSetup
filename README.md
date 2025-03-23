@@ -78,3 +78,11 @@ Putty
 Python
 ```
 
+### PowerShell scripts
+```
+Activate_defender
+CreateLNK
+PowershellScreenshot
+PowershellTCPScanner
+PS_reverse_shell
+```
