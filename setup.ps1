@@ -66,6 +66,11 @@ downloadFile -Url "https://raw.githubusercontent.com/61106960/adPEAS/refs/heads/
 # adPEAS-Light
 downloadFile -Url "https://raw.githubusercontent.com/61106960/adPEAS/refs/heads/main/adPEAS-Light.ps1" -Destination $installPath"adPEAS-Light.ps1"
 
+# Akagi
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/Akagi.zip" -Destination $installPath"Akagi.zip"
+Expand-Archive -Path $installPath"Akagi.zip" -DestinationPath $installPath"Akagi" -Force
+Remove-Item $installPath"Akagi.zip" -Force
+
 # Aquatone
 downloadFile -Url https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_windows_amd64_1.7.0.zip -Destination $installPath"aquatone_windows_amd64_1.7.0.zip"
 Expand-Archive -Path $installPath"aquatone_windows_amd64_1.7.0.zip" -DestinationPath $installPath"aquatone" -Force
@@ -95,6 +100,11 @@ downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/
 
 # Dumpit
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/DumpIt.exe" -Destination $installPath"DumpIt.exe"
+
+# DumpLSASS tools
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/DumpLSASS.zip" -Destination $installPath"DumpLSASS.zip"
+Expand-Archive -Path $installPath"DumpLSASS.zip" -DestinationPath $installPath"DumpLSASS" -Force
+Remove-Item $installPath"DumpLSASS.zip" -Force
 
 # ForgeCert
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/ForgeCert.exe" -Destination $installPath"ForgeCert.exe"
@@ -138,6 +148,11 @@ git clone https://github.com/ParrotSec/mimikatz.git $installPath"mimikatz"
 
 # Minimalistic-offensive-security-tools
 git clone https://github.com/InfosecMatter/Minimalistic-offensive-security-tools.git $installPath"Minimalistic-offensive-security-tools"
+
+# MissingDLLs (frequently missing dlls)
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/MissingDLLs.zip" -Destination $installPath"MissingDLLs.zip"
+Expand-Archive -Path $installPath"MissingDLLs.zip" -DestinationPath $installPath"MissingDLLs" -Force
+Remove-Item $installPath"MissingDLLs.zip" -Force
 
 # Netexec
 downloadFile -Url https://github.com/Pennyw0rth/NetExec/releases/download/v1.3.0/nxc.exe.zip -Destination $installPath"nxc.exe.zip"
