@@ -27,6 +27,7 @@ Chisel
 Coercer
 CsFalconUninstaller
 DumpIt
+DumpLSASS tools
 ForgeCert
 Ffuf
 Impacket
@@ -71,6 +72,7 @@ Firefox
 Git
 Golang
 Google Chrome
+Missing DLLs
 Notepad
 Putty
 Python
