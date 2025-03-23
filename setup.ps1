@@ -22,15 +22,6 @@ function downloadFile {
     Invoke-WebRequest -Uri $Url -OutFile $Destination
 }
 
-function installExe {
-    param (
-        [string]$FilePath,
-        [string]$Arguments = "/silent /norestart"
-    )
-    Write-Host "Installing $FilePath with args: $Arguments..."
-    Start-Process -FilePath $FilePath -ArgumentList $Arguments -Wait -NoNewWindow
-}
-
 function installChoco {
     param (
         [string]$Package
@@ -91,6 +82,9 @@ downloadFile -Url "https://github.com/jpillora/chisel/releases/download/v1.10.1/
 
 # Coercer
 git clone https://github.com/p0dalirius/Coercer.git $installPath"Coercer"
+
+# CreateLNK
+downloadFile -Url "https://gist.githubusercontent.com/afkfr0mkeyb0ard/587577da782b5ad48f37ffd17b02b60b/raw/93fcff99625a15706668fa2f51933b966dca52b9/createLNK.ps1" -Destination $installPath"createLNK.ps1"
 
 # CsFalconUninstaller
 git clone https://github.com/gmh5225/CVE-2022-44721-CsFalconUninstaller.git $installPath"CVE-2022-44721-CsFalconUninstaller"
@@ -170,11 +164,20 @@ git clone https://github.com/afkfr0mkeyb0ard/PayloadEverything.git $installPath"
 # PetitPotam
 git clone https://github.com/topotam/PetitPotam.git $installPath"PetitPotam"
 
+# PowershellScreenshot
+downloadFile -Url "https://gist.githubusercontent.com/afkfr0mkeyb0ard/88cf33e6ff49d28847ebfcdb7a0c8957/raw/cdd806e35e0940345d85ab5fa461f777f0113513/PowershellScreenshot.ps1" -Destination $installPath"PowershellScreenshot.ps1"
+
+# PowershellTCPScanner
+downloadFile -Url "https://gist.githubusercontent.com/afkfr0mkeyb0ard/772b0f6b459e44014bd01c7259433f7d/raw/399a4f9d1bb2979bddce05a3e0c26bcc75832b08/PowershellTCPScanner.ps1" -Destination $installPath"PowershellTCPScanner.ps1"
+
 # PowerZure
 git clone https://github.com/hausec/PowerZure.git $installPath"PowerZure"
 
 # PrivescCheck
 downloadFile -Url "https://raw.githubusercontent.com/itm4n/PrivescCheck/refs/heads/master/PrivescCheck.ps1" -Destination $installPath"PrivescCheck.ps1"
+
+# PS_reverse_shell
+downloadFile -Url "https://gist.githubusercontent.com/afkfr0mkeyb0ard/6b2ff9b44f56d5190b4c3d64f71d4976/raw/d7d89569797bbf101912fe234f23431a712def67/PS_reverse_shell" -Destination $installPath"PS_reverse_shell.ps1"
 
 # Responder
 git clone https://github.com/lgandx/Responder.git $installPath"Responder"
