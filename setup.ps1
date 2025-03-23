@@ -225,6 +225,11 @@ downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/r
 # SharpWMI
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/SharpWMI.exe" -Destination $installPath"SharpWMI.exe"
 
+# Snoop
+downloadFile -Url "https://github.com/snoopwpf/snoopwpf/releases/download/v5.1.0/Snoop.5.1.0.zip" -Destination $installPath"Snoop.5.1.0.zip"
+Expand-Archive -Path $installPath"Snoop.5.1.0.zip" -DestinationPath $installPath"Snoop" -Force
+Remove-Item $installPath"Snoop.5.1.0.zip" -Force
+
 # Sysinternals
 New-Item -Path $installPath"Sysinternals" -ItemType Directory | Out-Null
 downloadFile -Url https://live.sysinternals.com/accesschk64.exe -Destination $installPath"Sysinternals\accesschk64.exe"
