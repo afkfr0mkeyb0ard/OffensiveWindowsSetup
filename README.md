@@ -14,7 +14,7 @@ powershell -ep b -nop -c "$w=(New-Object Net.WebClient);IEX $w.DownloadString('h
 powershell -ep b -nop -File setup.ps1
 ```
 
-### List of installed tools
+### Offensive tools
 ```
 adPEAS
 adPEAS-Light
@@ -61,5 +61,17 @@ SharpWMI
 Sysinternals
 Winpeas
 Wireshark
-
 ```
+
+### Useful tools
+```
+7Zip
+Firefox
+Git
+Golang
+Google Chrome
+Notepad
+Putty
+Python
+```
+
