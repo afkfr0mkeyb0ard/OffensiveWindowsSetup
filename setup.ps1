@@ -36,17 +36,22 @@ $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
+
+# INSTALL PACKAGE WITH CHOCO
+installChoco -Package "7zip.install"
+installChoco -Package "firefox"
 installChoco -Package "git"
 installChoco -Package "golang"
-installChoco -Package "python"
-installChoco -Package "wireshark"
-installChoco -Package "nmap"
 installChoco -Package "googlechrome"
-installChoco -Package "firefox"
-installChoco -Package "7zip.install"
+installChoco -Package "nmap"
 installChoco -Package "notepadplusplus.install"
 installChoco -Package "putty.install"
+installChoco -Package "python"
+installChoco -Package "visualstudio2022community"
+installChoco -Package "wireshark"
 refreshenv
+
+# INSTALL TOOLS
 
 # Activate_defender script
 downloadFile -Url "https://raw.githubusercontent.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/refs/heads/main/tools/activate_defender.ps1" -Destination $installPath"activate_defender.ps1"
