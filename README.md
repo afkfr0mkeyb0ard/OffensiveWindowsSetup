@@ -60,6 +60,7 @@ SharpDump
 SharpHound
 SharpUp
 SharpWMI
+Snoop
 Sysinternals
 Winpeas
 Wireshark
