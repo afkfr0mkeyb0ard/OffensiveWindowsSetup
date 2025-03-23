@@ -57,6 +57,9 @@ installChoco -Package "notepadplusplus.install"
 installChoco -Package "putty.install"
 refreshenv
 
+# Activate_defender script
+downloadFile -Url "https://raw.githubusercontent.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/refs/heads/main/tools/activate_defender.ps1" -Destination $installPath"activate_defender.ps1"
+
 # adPEAS
 downloadFile -Url "https://raw.githubusercontent.com/61106960/adPEAS/refs/heads/main/adPEAS.ps1" -Destination $installPath"adPEAS.ps1"
 
