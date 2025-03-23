@@ -40,6 +40,7 @@ MFASweep
 Mimikatz
 Minimalistic-offensive-security-tools
 Netexec
+Netscan
 Nmap
 PayloadEverything
 PetitPotam
