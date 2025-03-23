@@ -16,6 +16,7 @@ powershell -ep b -nop -File setup.ps1
 ```
 adPEAS
 adPEAS-Light
+Akagi
 Aquatone
 Bettercap
 bloodyAD
@@ -23,6 +24,7 @@ Certify
 Chisel
 Coercer
 CsFalconUninstaller
+DumpIt
 ForgeCert
 Ffuf
 Impacket
@@ -44,6 +46,7 @@ PrivescCheck
 Responder
 RestrictedAdmin
 Rubeus
+Rufus
 SafetyKatz
 Seatbelt
 Seclists
