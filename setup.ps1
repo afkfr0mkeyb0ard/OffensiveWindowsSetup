@@ -90,6 +90,9 @@ git clone https://github.com/p0dalirius/Coercer.git $installPath"Coercer"
 # CsFalconUninstaller
 git clone https://github.com/gmh5225/CVE-2022-44721-CsFalconUninstaller.git $installPath"CVE-2022-44721-CsFalconUninstaller"
 
+# DefenderCheck
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/DefenderCheck.exe" -Destination $installPath"DefenderCheck.exe"
+
 # Dumpit
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/DumpIt.exe" -Destination $installPath"DumpIt.exe"
 
