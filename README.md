@@ -31,6 +31,7 @@ DumpLSASS tools
 ForgeCert
 Ffuf
 Impacket
+JetBrains dotPeek
 Kerbrute
 Koh
 Ldapnomnom
