@@ -118,6 +118,9 @@ downloadFile -Url https://github.com/maaaaz/impacket-examples-windows/releases/d
 Expand-Archive -Path $installPath"impacket-windows.zip" -DestinationPath $installPath"impacket-windows" -Force
 Remove-Item $installPath"impacket-windows.zip" -Force
 
+# JetBrains dotPeek
+downloadFile -Url https://download.jetbrains.com/resharper/dotUltimate.2024.3.6/JetBrains.dotPeek.2024.3.6.web.exe -Destination $installPath"JetBrains.dotPeek.2024.3.6.web.exe"
+
 # Kerbrute
 downloadFile -Url https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_amd64.exe -Destination $installPath"kerbrute.exe"
 
