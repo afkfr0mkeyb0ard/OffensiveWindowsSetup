@@ -78,6 +78,9 @@ go install github.com/bettercap/bettercap@latest
 # bloodyAD
 downloadFile -Url "https://github.com/CravateRouge/bloodyAD/releases/download/v2.1.9/bloodyAD.exe" -Destination $installPath"bloodyAD.exe"
 
+# Burpsuite
+downloadFile -Url "https://portswigger-cdn.net/burp/releases/download?product=community&version=2025.1.5&type=WindowsX64" -Destination $installPath"Burpsuite.exe"
+
 # Certify
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/Certify.exe" -Destination $installPath"Certify.exe"
 
