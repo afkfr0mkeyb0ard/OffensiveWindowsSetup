@@ -22,6 +22,7 @@ Akagi
 Aquatone
 Bettercap
 bloodyAD
+Burpsuite
 Certify
 Chisel
 Coercer
