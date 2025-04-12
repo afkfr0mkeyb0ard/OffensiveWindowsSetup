@@ -250,6 +250,9 @@ downloadFile -Url https://live.sysinternals.com/pssuspend64.exe -Destination $in
 downloadFile -Url https://live.sysinternals.com/Sysmon64.exe -Destination $installPath"Sysinternals\Sysmon64.exe"
 downloadFile -Url https://live.sysinternals.com/tcpview64.exe -Destination $installPath"Sysinternals\tcpview64.exe"
 
+# Systeminformer (ProcessHacker)
+downloadFile -Url https://netix.dl.sourceforge.net/project/systeminformer/systeminformer-3.2.25011-release-setup.exe?viasf=1 -Destination $installPath"systeminformer.exe"
+
 # Winpeas
 downloadFile -Url "https://github.com/peass-ng/PEASS-ng/releases/download/20250216-fd69e735/winPEAS.bat" -Destination $installPath"winPEAS.bat"
 downloadFile -Url "https://github.com/peass-ng/PEASS-ng/releases/download/20250216-fd69e735/winPEASx64.exe" -Destination $installPath"winPEASx64.exe"
