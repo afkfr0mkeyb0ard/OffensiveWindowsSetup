@@ -19,7 +19,8 @@ function downloadFile {
         [string]$Destination
     )
     Write-Host "Downloading $Url to $Destination..."
-    Invoke-WebRequest -Uri $Url -OutFile $Destination
+    $wc = New-Object net.webclient
+    $wc.Downloadfile($Url, $Destination)
 }
 
 function installChoco {
