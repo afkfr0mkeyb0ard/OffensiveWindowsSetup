@@ -166,9 +166,7 @@ Expand-Archive -Path $installPath"nxc.exe.zip" -DestinationPath $installPath"net
 Remove-Item $installPath"nxc.exe.zip" -Force
 
 # Netscan
-downloadFile -Url "https://www.softperfect.com/download/files/netscan_portable.zip" -Destination $installPath"netscan_portable.zip"
-Expand-Archive -Path $installPath"netscan_portable.zip" -DestinationPath $installPath"netscan" -Force
-Remove-Item $installPath"netscan_portable.zip" -Force
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/netscan.exe" -Destination $installPath"netscan.exe"
 
 # PayloadEverything
 git clone https://github.com/afkfr0mkeyb0ard/PayloadEverything.git $installPath"PayloadEverything"
