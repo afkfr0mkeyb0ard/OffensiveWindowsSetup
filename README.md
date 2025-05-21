@@ -33,6 +33,7 @@ DLLSpy
 DnSpy
 DumpIt
 DumpLSASS tools
+Echo Mirage
 ForgeCert
 Ffuf
 ILSpy
