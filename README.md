@@ -73,6 +73,7 @@ SharpHound
 SharpUp
 SharpWMI
 Snoop
+SQLite
 Sysinternals
 WindowDetective
 WinHex
