@@ -56,6 +56,7 @@ PetitPotam
 PowerZure
 PrivescCheck
 ProcessHacker
+Regshot
 Responder
 RestrictedAdmin
 Rubeus
