@@ -72,7 +72,7 @@ SharpUp
 SharpWMI
 Snoop
 Sysinternals
-Systeminformer (ProcessHacker)
+WinHex
 Winpeas
 Wireshark
 ```
