@@ -30,6 +30,7 @@ CsFalconUninstaller
 DefenderCheck
 Detect It Easy
 DLLSpy
+DnSpy
 DumpIt
 DumpLSASS tools
 ForgeCert
