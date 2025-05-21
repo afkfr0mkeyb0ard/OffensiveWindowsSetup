@@ -226,6 +226,9 @@ git clone https://github.com/lgandx/Responder.git $installPath"Responder"
 # RestrictedAdmin
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/RestrictedAdmin.exe" -Destination $installPath"RestrictedAdmin.exe"
 
+# Robber
+downloadFile -Url "https://github.com/MojtabaTajik/Robber/releases/download/1.7/Robber_1.7.exe" -Destination $installPath"Robber_1.7.exe"
+
 # RpcView
 downloadFile -Url "https://github.com/silverf0x/RpcView/releases/download/v0.3.1.90/RpcView64.7z" -Destination $installPath"RpcView64.7z"
 
