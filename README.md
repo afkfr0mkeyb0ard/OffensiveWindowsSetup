@@ -27,6 +27,7 @@ Certify
 Chisel
 Coercer
 CsFalconUninstaller
+DatabaseNet4
 DefenderCheck
 Detect It Easy
 DLLSpy
