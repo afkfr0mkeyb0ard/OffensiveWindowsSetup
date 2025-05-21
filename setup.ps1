@@ -204,6 +204,9 @@ git clone https://github.com/hausec/PowerZure.git $installPath"PowerZure"
 # PrivescCheck
 downloadFile -Url "https://raw.githubusercontent.com/itm4n/PrivescCheck/refs/heads/master/PrivescCheck.ps1" -Destination $installPath"PrivescCheck.ps1"
 
+# ProcessHacker
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/Processhacker_installer.exe" -Destination $installPath"ProcessHacker_installer.exe"
+
 # PS_reverse_shell
 downloadFile -Url "https://gist.githubusercontent.com/afkfr0mkeyb0ard/6b2ff9b44f56d5190b4c3d64f71d4976/raw/d7d89569797bbf101912fe234f23431a712def67/PS_reverse_shell" -Destination $installPath"PS_reverse_shell.ps1"
 
