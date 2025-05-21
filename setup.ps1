@@ -120,6 +120,9 @@ downloadFile -Url https://github.com/ffuf/ffuf/releases/download/v2.1.0/ffuf_2.1
 Expand-Archive -Path $installPath"ffuf_2.1.0_windows_amd64.zip" -DestinationPath $installPath"ffuf_2.1.0" -Force
 Remove-Item $installPath"ffuf_2.1.0_windows_amd64.zip" -Force
 
+# ILSpy
+downloadFile -Url https://github.com/icsharpcode/ILSpy/releases/download/v9.1/ILSpy_Installer_9.1.0.7988-x64.msi -Destination $installPath"ILSpy.msi"
+
 # Impacket
 downloadFile -Url https://github.com/maaaaz/impacket-examples-windows/releases/download/v0.9.17/impacket-examples-windows-v0.9.17.zip -Destination $installPath"impacket-windows.zip"
 Expand-Archive -Path $installPath"impacket-windows.zip" -DestinationPath $installPath"impacket-windows" -Force
