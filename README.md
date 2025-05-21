@@ -29,6 +29,7 @@ Coercer
 CsFalconUninstaller
 DefenderCheck
 Detect It Easy
+DLLSpy
 DumpIt
 DumpLSASS tools
 ForgeCert
