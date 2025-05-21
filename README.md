@@ -27,6 +27,7 @@ Certify
 Chisel
 Coercer
 CsFalconUninstaller
+DefenderCheck
 Detect It Easy
 DumpIt
 DumpLSASS tools
