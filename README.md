@@ -72,6 +72,7 @@ SharpUp
 SharpWMI
 Snoop
 Sysinternals
+WindowDetective
 WinHex
 Winpeas
 Wireshark
