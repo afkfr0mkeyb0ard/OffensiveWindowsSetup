@@ -33,6 +33,7 @@ DumpIt
 DumpLSASS tools
 ForgeCert
 Ffuf
+ILSpy
 Impacket
 JetBrains dotPeek
 Kerbrute
