@@ -210,6 +210,10 @@ downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/
 # PS_reverse_shell
 downloadFile -Url "https://gist.githubusercontent.com/afkfr0mkeyb0ard/6b2ff9b44f56d5190b4c3d64f71d4976/raw/d7d89569797bbf101912fe234f23431a712def67/PS_reverse_shell" -Destination $installPath"PS_reverse_shell.ps1"
 
+# Regshot
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/Regshot-x64-ANSI.exe" -Destination $installPath"Regshot-x64-ANSI.exe"
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/Regshot-x64-Unicode.exe" -Destination $installPath"Regshot-x64-Unicode.exe"
+
 # Responder
 git clone https://github.com/lgandx/Responder.git $installPath"Responder"
 
