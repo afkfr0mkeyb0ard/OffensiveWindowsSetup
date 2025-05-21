@@ -98,6 +98,9 @@ downloadFile -Url "https://gist.githubusercontent.com/afkfr0mkeyb0ard/587577da78
 # CsFalconUninstaller
 git clone https://github.com/gmh5225/CVE-2022-44721-CsFalconUninstaller.git $installPath"CVE-2022-44721-CsFalconUninstaller"
 
+# DatabaseNet4
+downloadFile -Url "https://fishcodelib.com/files/DatabaseNet4.zip" -Destination $installPath"DatabaseNet4.zip"
+
 # DefenderCheck
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/DefenderCheck.exe" -Destination $installPath"DefenderCheck.exe"
 
