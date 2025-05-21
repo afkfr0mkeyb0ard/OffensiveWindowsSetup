@@ -60,6 +60,7 @@ ProcessHacker
 Regshot
 Responder
 RestrictedAdmin
+RpcView
 Rubeus
 Rufus
 SafetyKatz
