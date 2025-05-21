@@ -37,6 +37,7 @@ DumpLSASS tools
 Echo Mirage
 ForgeCert
 Ffuf
+HxDSetup
 ILSpy
 Impacket
 JetBrains dotPeek
