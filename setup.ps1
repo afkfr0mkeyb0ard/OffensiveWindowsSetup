@@ -118,6 +118,9 @@ downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/
 Expand-Archive -Path $installPath"DumpLSASS.zip" -DestinationPath $installPath"DumpLSASS" -Force
 Remove-Item $installPath"DumpLSASS.zip" -Force
 
+# Echo Mirage
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/Echo_Mirage.zip" -Destination $installPath"Echo_Mirage.zip"
+
 # ForgeCert
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/ForgeCert.exe" -Destination $installPath"ForgeCert.exe"
 
