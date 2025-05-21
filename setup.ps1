@@ -104,6 +104,9 @@ downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/
 # Detect It Easy
 downloadFile -Url "https://github.com/horsicq/DIE-engine/releases/download/3.10/die_win64_portable_3.10_x64.zip" -Destination $installPath"DetectItEasy.zip"
 
+# DLLSpy
+downloadFile -Url "https://github.com/cyberark/DLLSpy/releases/download/V1/DLLSpy.exe" -Destination $installPath"DLLSpy.exe"
+
 # Dumpit
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/DumpIt.exe" -Destination $installPath"DumpIt.exe"
 
