@@ -264,6 +264,9 @@ downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/r
 # Snoop
 downloadFile -Url "https://github.com/snoopwpf/snoopwpf/releases/download/v5.1.0/Snoop.5.1.0.signed.msi" -Destination $installPath"Snoop.5.1.0.signed.msi"
 
+# SQLite
+downloadFile -Url "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win64.msi" -Destination $installPath"SQLite-v3.13.1-win64.msi"
+
 # Sysinternals
 New-Item -Path $installPath"Sysinternals" -ItemType Directory | Out-Null
 downloadFile -Url https://live.sysinternals.com/accesschk64.exe -Destination $installPath"Sysinternals\accesschk64.exe"
