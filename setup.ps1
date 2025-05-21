@@ -135,6 +135,9 @@ downloadFile -Url https://github.com/ffuf/ffuf/releases/download/v2.1.0/ffuf_2.1
 Expand-Archive -Path $installPath"ffuf_2.1.0_windows_amd64.zip" -DestinationPath $installPath"ffuf_2.1.0" -Force
 Remove-Item $installPath"ffuf_2.1.0_windows_amd64.zip" -Force
 
+# HxDSetup
+downloadFile -Url "https://mh-nexus.de/downloads/HxDSetup.zip" -Destination $installPath"HxDSetup.zip"
+
 # ILSpy
 downloadFile -Url https://github.com/icsharpcode/ILSpy/releases/download/v9.1/ILSpy_Installer_9.1.0.7988-x64.msi -Destination $installPath"ILSpy.msi"
 
