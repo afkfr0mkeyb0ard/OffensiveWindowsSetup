@@ -55,6 +55,7 @@ PayloadEverything
 PetitPotam
 PowerZure
 PrivescCheck
+ProcessHacker
 Responder
 RestrictedAdmin
 Rubeus
