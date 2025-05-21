@@ -272,6 +272,9 @@ downloadFile -Url https://live.sysinternals.com/pssuspend64.exe -Destination $in
 downloadFile -Url https://live.sysinternals.com/Sysmon64.exe -Destination $installPath"Sysinternals\Sysmon64.exe"
 downloadFile -Url https://live.sysinternals.com/tcpview64.exe -Destination $installPath"Sysinternals\tcpview64.exe"
 
+# WindowDetective
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/Window-Detective-3.5.1-setup.exe" -Destination $installPath"Window-Detective-3.5.1-setup.exe"
+
 # WinHex
 downloadFile -Url "https://www.x-ways.net/winhex.zip" -Destination $installPath"winhex.zip"
 
