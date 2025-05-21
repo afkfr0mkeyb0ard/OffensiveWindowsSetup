@@ -101,6 +101,9 @@ git clone https://github.com/gmh5225/CVE-2022-44721-CsFalconUninstaller.git $ins
 # DefenderCheck
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/DefenderCheck.exe" -Destination $installPath"DefenderCheck.exe"
 
+# Detect It Easy
+downloadFile -Url "https://github.com/horsicq/DIE-engine/releases/download/3.10/die_win64_portable_3.10_x64.zip" -Destination $installPath"DetectItEasy.zip"
+
 # Dumpit
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/DumpIt.exe" -Destination $installPath"DumpIt.exe"
 
