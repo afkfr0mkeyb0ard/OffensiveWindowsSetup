@@ -61,6 +61,7 @@ ProcessHacker
 Regshot
 Responder
 RestrictedAdmin
+Robber
 RpcView
 Rubeus
 Rufus
