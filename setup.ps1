@@ -107,6 +107,9 @@ downloadFile -Url "https://github.com/horsicq/DIE-engine/releases/download/3.10/
 # DLLSpy
 downloadFile -Url "https://github.com/cyberark/DLLSpy/releases/download/V1/DLLSpy.exe" -Destination $installPath"DLLSpy.exe"
 
+# DnSpy
+downloadFile -Url "https://dnspy.org/wp-content/uploads/2024/10/dnSpy-net-win64.zip"  -Destination $installPath"DnSpy.zip"
+
 # Dumpit
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/DumpIt.exe" -Destination $installPath"DumpIt.exe"
 
