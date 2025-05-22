@@ -160,7 +160,7 @@ downloadFile -Url "https://github.com/lkarlslund/ldapnomnom/releases/download/v1
 downloadFile -Url "https://github.com/lkarlslund/ldapnomnom/releases/download/v1.5.1/ldapnomnom-windows-x64.exe" -Destination $installPath"ldapnomnom-windows-x64.exe"
 
 # LoadDll
-downloadFile -Url "https://github.com/edix/LoadDll/blob/master/Release/LoadDll_x64.exe" -Destination $installPath"LoadDll_x64.exe"
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/LoadDll_x64.exe" -Destination $installPath"LoadDll_x64.exe"
 
 # LockLess
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/LockLess.exe" -Destination $installPath"LockLess.exe"
