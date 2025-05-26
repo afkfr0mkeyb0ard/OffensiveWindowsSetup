@@ -28,6 +28,7 @@ Chisel
 Coercer
 CsFalconUninstaller
 DatabaseNet4
+Dbeaver
 DefenderCheck
 Detect It Easy
 DLLSpy
@@ -96,6 +97,7 @@ Missing DLLs
 Notepad
 Putty
 Python
+TorBrowser
 ```
 
 ### PowerShell scripts
