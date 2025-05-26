@@ -50,6 +50,7 @@ installChoco -Package "nmap"
 installChoco -Package "notepadplusplus.install"
 installChoco -Package "putty.install"
 installChoco -Package "python"
+installChoco -Package "rufus"
 installChoco -Package "tor-browser"
 installChoco -Package "visualstudio2022community"
 installChoco -Package "wireshark"
@@ -240,9 +241,6 @@ downloadFile -Url "https://github.com/silverf0x/RpcView/releases/download/v0.3.1
 
 # Rubeus
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/Rubeus.exe" -Destination $installPath"Rubeus.exe"
-
-# Rufus
-downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/rufus-4.5p.exe" -Destination $installPath"rufus-4.5p.exe"
 
 # SafetyKatz
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/SafetyKatz.exe" -Destination $installPath"SafetyKatz.exe"
