@@ -40,6 +40,7 @@ if (Test-Path($ChocolateyProfile)) {
 
 # INSTALL PACKAGE WITH CHOCO
 installChoco -Package "7zip.install"
+installChoco -Package "dbeaver"
 installChoco -Package "firefox"
 installChoco -Package "git"
 installChoco -Package "golang"
@@ -49,6 +50,7 @@ installChoco -Package "nmap"
 installChoco -Package "notepadplusplus.install"
 installChoco -Package "putty.install"
 installChoco -Package "python"
+installChoco -Package "tor-browser"
 installChoco -Package "visualstudio2022community"
 installChoco -Package "wireshark"
 refreshenv
