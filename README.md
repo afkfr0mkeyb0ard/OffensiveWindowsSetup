@@ -91,6 +91,7 @@ Firefox
 Git
 Golang
 Google Chrome
+Java (JRE8)
 Missing DLLs
 Notepad
 Putty
