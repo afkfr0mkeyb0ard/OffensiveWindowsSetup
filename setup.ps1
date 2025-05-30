@@ -128,6 +128,9 @@ Remove-Item $installPath"DumpLSASS.zip" -Force
 # Echo Mirage
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/Echo_Mirage.zip" -Destination $installPath"Echo_Mirage.zip"
 
+# Exeinfo
+downloadFile -Url "https://github.com/ExeinfoASL/ASL/releases/download/v0.0.9.0/Exeinfo_0090.zip" -Destination $installPath"Exeinfo.zip"
+
 # ExplorerSuite
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/ExplorerSuite.exe" -Destination $installPath"ExplorerSuite.exe"
 
