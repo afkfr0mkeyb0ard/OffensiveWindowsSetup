@@ -36,6 +36,7 @@ DnSpy
 DumpIt
 DumpLSASS tools
 Echo Mirage
+Exeinfo
 ForgeCert
 Ffuf
 HxDSetup
