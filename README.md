@@ -39,6 +39,7 @@ Echo Mirage
 Exeinfo
 ForgeCert
 Ffuf
+HackBrowserData
 HxDSetup
 ILSpy
 Impacket
