@@ -142,6 +142,9 @@ downloadFile -Url https://github.com/ffuf/ffuf/releases/download/v2.1.0/ffuf_2.1
 Expand-Archive -Path $installPath"ffuf_2.1.0_windows_amd64.zip" -DestinationPath $installPath"ffuf_2.1.0" -Force
 Remove-Item $installPath"ffuf_2.1.0_windows_amd64.zip" -Force
 
+# HackBrowserData
+downloadFile -Url "https://github.com/moonD4rk/HackBrowserData/releases/download/v0.4.6/hack-browser-data-windows-64bit.zip" -Destination $installPath"HackBrowserData.zip"
+
 # HxDSetup
 downloadFile -Url "https://mh-nexus.de/downloads/HxDSetup.zip" -Destination $installPath"HxDSetup.zip"
 
