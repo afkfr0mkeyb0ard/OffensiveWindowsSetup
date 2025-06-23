@@ -108,6 +108,9 @@ downloadFile -Url "https://fishcodelib.com/files/DatabaseNet4.zip" -Destination 
 # DefenderCheck
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/DefenderCheck.exe" -Destination $installPath"DefenderCheck.exe"
 
+# Defendnot
+downloadFile -Url "https://github.com/es3n1n/defendnot/releases/download/v1.3.0/x64.zip" -Destination $installPath"defendnotx64.zip"
+
 # Detect It Easy
 downloadFile -Url "https://github.com/horsicq/DIE-engine/releases/download/3.10/die_win64_portable_3.10_x64.zip" -Destination $installPath"DetectItEasy.zip"
 
