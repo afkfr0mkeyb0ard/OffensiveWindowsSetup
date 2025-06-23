@@ -30,6 +30,7 @@ CsFalconUninstaller
 DatabaseNet4
 Dbeaver
 DefenderCheck
+Defendnot
 Detect It Easy
 DLLSpy
 DnSpy
