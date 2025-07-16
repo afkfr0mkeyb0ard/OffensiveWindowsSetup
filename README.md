@@ -16,6 +16,7 @@ powershell -ep b -nop -File setup.ps1
 
 ### Offensive tools
 ```
+AADInternals
 adPEAS
 adPEAS-Light
 Akagi
