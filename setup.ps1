@@ -58,6 +58,9 @@ refreshenv
 
 # INSTALL TOOLS
 
+# AADInternals
+git clone https://github.com/Gerenios/AADInternals.git $installPath"AADInternals"
+
 # Activate_defender script
 downloadFile -Url "https://raw.githubusercontent.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/refs/heads/main/tools/activate_defender.ps1" -Destination $installPath"activate_defender.ps1"
 
