@@ -305,6 +305,9 @@ downloadFile -Url https://live.sysinternals.com/strings64.exe -Destination $inst
 downloadFile -Url https://live.sysinternals.com/Sysmon64.exe -Destination $installPath"Sysinternals\Sysmon64.exe"
 downloadFile -Url https://live.sysinternals.com/tcpview64.exe -Destination $installPath"Sysinternals\tcpview64.exe"
 
+# ThreatCheck
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/ThreatCheck.7z" -Destination $installPath"ThreatCheck.7z"
+
 # WindowDetective
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/Window-Detective-3.5.1-setup.exe" -Destination $installPath"Window-Detective-3.5.1-setup.exe"
 
