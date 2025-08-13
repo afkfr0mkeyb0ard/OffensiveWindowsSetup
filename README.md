@@ -83,6 +83,7 @@ SharpWMI
 Snoop
 SQLite
 Sysinternals
+ThreatCheck
 WindowDetective
 WinHex
 Winpeas
