@@ -88,6 +88,7 @@ WindowDetective
 WinHex
 Winpeas
 Wireshark
+WSASS
 ```
 
 ### Useful tools
