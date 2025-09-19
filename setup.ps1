@@ -317,3 +317,8 @@ downloadFile -Url "https://www.x-ways.net/winhex.zip" -Destination $installPath"
 # Winpeas
 downloadFile -Url "https://github.com/peass-ng/PEASS-ng/releases/download/20250216-fd69e735/winPEAS.bat" -Destination $installPath"winPEAS.bat"
 downloadFile -Url "https://github.com/peass-ng/PEASS-ng/releases/download/20250216-fd69e735/winPEASx64.exe" -Destination $installPath"winPEASx64.exe"
+
+# WSASS
+downloadFile -Url "https://github.com/TwoSevenOneT/WSASS/releases/download/main/WSASS_Release_1.0.zip" -Destination $installPath"WSASS_Release_1.0.zip"
+Expand-Archive -Path $installPath"WSASS_Release_1.0.zip" -DestinationPath $installPath"WSASS" -Force
+Remove-Item $installPath"WSASS_Release_1.0.zip" -Force
