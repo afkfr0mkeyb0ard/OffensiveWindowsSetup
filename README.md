@@ -38,6 +38,7 @@ DnSpy
 DumpIt
 DumpLSASS tools
 Echo Mirage
+EDR-Freeze
 Exeinfo
 ForgeCert
 Ffuf
