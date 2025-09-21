@@ -134,6 +134,11 @@ Remove-Item $installPath"DumpLSASS.zip" -Force
 # Echo Mirage
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/Echo_Mirage.zip" -Destination $installPath"Echo_Mirage.zip"
 
+# EDR-Freeze
+downloadFile -Url "https://github.com/TwoSevenOneT/EDR-Freeze/releases/download/main/EDR-Freeze_1.0.zip" -Destination $installPath"EDR-Freeze_1.0.zip"
+Expand-Archive -Path $installPath"EDR-Freeze_1.0.zip" -DestinationPath $installPath"EDR-Freeze" -Force
+Remove-Item $installPath"EDR-Freeze_1.0.zip" -Force
+
 # Exeinfo
 downloadFile -Url "https://github.com/ExeinfoASL/ASL/releases/download/v0.0.9.0/Exeinfo_0090.zip" -Destination $installPath"Exeinfo.zip"
 
