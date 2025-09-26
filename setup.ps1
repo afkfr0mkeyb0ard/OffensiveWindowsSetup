@@ -219,6 +219,11 @@ downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/
 # PayloadEverything
 git clone https://github.com/afkfr0mkeyb0ard/PayloadEverything.git $installPath"PayloadEverything"
 
+# PE-bear
+downloadFile -Url "https://github.com/hasherezade/pe-bear/releases/download/v0.7.1/PE-bear_0.7.1_qt5_x64_win_vs19.zip" -Destination $installPath"PE-bear_0.7.1_qt5_x64_win_vs19.zip"
+Expand-Archive -Path $installPath"PE-bear_0.7.1_qt5_x64_win_vs19.zip" -DestinationPath $installPath"PE-bear" -Force
+Remove-Item $installPath"PE-bear_0.7.1_qt5_x64_win_vs19.zip" -Force
+
 # PetitPotam
 git clone https://github.com/topotam/PetitPotam.git $installPath"PetitPotam"
 
