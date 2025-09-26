@@ -61,6 +61,7 @@ Netexec
 Netscan
 Nmap
 PayloadEverything
+PE-bear
 PetitPotam
 PowerZure
 PrivescCheck
