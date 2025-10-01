@@ -64,6 +64,9 @@ git clone https://github.com/Gerenios/AADInternals.git $installPath"AADInternals
 # Activate_defender script
 downloadFile -Url "https://raw.githubusercontent.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/refs/heads/main/tools/activate_defender.ps1" -Destination $installPath"activate_defender.ps1"
 
+# Adalanche
+downloadFile -Url "https://github.com/lkarlslund/Adalanche/releases/download/v2025.2.6/adalanche-collector-windows-x64-v2025.2.6.exe" -Destination $installPath"adalanche-collector-v2025.2.6.exe"
+
 # adPEAS
 downloadFile -Url "https://raw.githubusercontent.com/61106960/adPEAS/refs/heads/main/adPEAS.ps1" -Destination $installPath"adPEAS.ps1"
 
