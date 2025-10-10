@@ -40,6 +40,7 @@ DumpIt
 DumpLSASS tools
 Echo Mirage
 EDR-Freeze
+Exe_to_dll
 Exeinfo
 ForgeCert
 Ffuf
