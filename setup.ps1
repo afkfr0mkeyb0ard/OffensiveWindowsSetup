@@ -142,6 +142,10 @@ downloadFile -Url "https://github.com/TwoSevenOneT/EDR-Freeze/releases/download/
 Expand-Archive -Path $installPath"EDR-Freeze_1.0.zip" -DestinationPath $installPath"EDR-Freeze" -Force
 Remove-Item $installPath"EDR-Freeze_1.0.zip" -Force
 
+# Exe_to_dll
+downloadFile -Url "https://github.com/hasherezade/exe_to_dll/releases/download/1.4/exe_to_dll_1.4_64bit.zip" -Destination $installPath"exe_to_dll_64.zip"
+downloadFile -Url "https://github.com/hasherezade/exe_to_dll/releases/download/1.4/exe_to_dll_1.4_32bit.zip" -Destination $installPath"exe_to_dll_32.zip"
+
 # Exeinfo
 downloadFile -Url "https://github.com/ExeinfoASL/ASL/releases/download/v0.0.9.0/Exeinfo_0090.zip" -Destination $installPath"Exeinfo.zip"
 
