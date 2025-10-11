@@ -250,7 +250,7 @@ downloadFile -Url "https://gist.githubusercontent.com/afkfr0mkeyb0ard/772b0f6b45
 git clone https://github.com/hausec/PowerZure.git $installPath"PowerZure"
 
 # PrivescCheck
-downloadFile -Url "https://raw.githubusercontent.com/itm4n/PrivescCheck/refs/heads/master/PrivescCheck.ps1" -Destination $installPath"PrivescCheck.ps1"
+downloadFile -Url "https://github.com/itm4n/PrivescCheck/releases/download/2025.10.06-1/PrivescCheck.ps1" -Destination $installPath"PrivescCheck.ps1"
 
 # ProcessHacker
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/Processhacker_installer.exe" -Destination $installPath"ProcessHacker_installer.exe"
