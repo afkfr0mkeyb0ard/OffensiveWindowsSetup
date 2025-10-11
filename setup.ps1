@@ -193,6 +193,9 @@ downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/
 # LockLess
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/LockLess.exe" -Destination $installPath"LockLess.exe"
 
+# MailSniper
+downloadFile -Url "https://raw.githubusercontent.com/dafthack/MailSniper/refs/heads/master/MailSniper.ps1" -Destination $installPath"MailSniper.ps1"
+
 # Mentalist
 downloadFile -Url https://github.com/sc0tfree/mentalist/releases/download/v1.0/Mentalist-v1.0-Win.zip -Destination $installPath"Mentalist-v1.0-Win.zip"
 Expand-Archive -Path $installPath"Mentalist-v1.0-Win.zip" -DestinationPath $installPath"Mentalist" -Force
