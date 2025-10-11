@@ -207,6 +207,9 @@ git clone https://github.com/afkfr0mkeyb0ard/Mentalist_chains.git $installPath"M
 # MFASweep
 downloadFile -Url "https://raw.githubusercontent.com/dafthack/MFASweep/refs/heads/master/MFASweep.ps1" -Destination $installPath"MFASweep.ps1"
 
+# Mhydeath64
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/mhydeath64.exe" -Destination $installPath"mhydeath64.exe"
+
 # Mimikatz
 git clone https://github.com/ParrotSec/mimikatz.git $installPath"mimikatz"
 
