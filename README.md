@@ -54,6 +54,7 @@ Koh
 Ldapnomnom
 LoadDll
 LockLess
+MailSniper
 Mentalist
 Mentalist_chains 
 MFASweep
