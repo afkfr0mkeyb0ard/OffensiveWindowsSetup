@@ -338,8 +338,8 @@ downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/
 downloadFile -Url "https://www.x-ways.net/winhex.zip" -Destination $installPath"winhex.zip"
 
 # Winpeas
-downloadFile -Url "https://github.com/peass-ng/PEASS-ng/releases/download/20250216-fd69e735/winPEAS.bat" -Destination $installPath"winPEAS.bat"
-downloadFile -Url "https://github.com/peass-ng/PEASS-ng/releases/download/20250216-fd69e735/winPEASx64.exe" -Destination $installPath"winPEASx64.exe"
+downloadFile -Url "https://github.com/peass-ng/PEASS-ng/releases/download/20251007-02ee8e3f/winPEAS.bat" -Destination $installPath"winPEAS.bat"
+downloadFile -Url "https://github.com/peass-ng/PEASS-ng/releases/download/20251007-02ee8e3f/winPEASx64.exe" -Destination $installPath"winPEASx64.exe"
 
 # WSASS
 downloadFile -Url "https://github.com/TwoSevenOneT/WSASS/releases/download/main/WSASS_Release_1.0.zip" -Destination $installPath"WSASS_Release_1.0.zip"
