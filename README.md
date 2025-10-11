@@ -58,6 +58,7 @@ MailSniper
 Mentalist
 Mentalist_chains 
 MFASweep
+Mhydeath64
 Mimikatz
 Minimalistic-offensive-security-tools
 Netexec
