@@ -297,7 +297,7 @@ downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/r
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/SharpDump.exe" -Destination $installPath"SharpDump.exe"
 
 # SharpHound
-downloadFile -Url https://github.com/SpecterOps/SharpHound/releases/download/v2.6.1/SharpHound-v2.6.1.zip -Destination $installPath"SharpHound.zip"
+downloadFile -Url https://github.com/SpecterOps/SharpHound/releases/download/v2.7.2/SharpHound_v2.7.2_windows_x86.zip -Destination $installPath"SharpHound.zip"
 Expand-Archive -Path $installPath"SharpHound.zip" -DestinationPath $installPath"SharpHound" -Force
 Remove-Item $installPath"SharpHound.zip" -Force
 
