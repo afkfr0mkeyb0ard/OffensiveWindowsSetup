@@ -226,6 +226,9 @@ Remove-Item $installPath"nxc.exe.zip" -Force
 # Netscan
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/netscan.exe" -Destination $installPath"netscan.exe"
 
+# O365recon
+downloadFile -Url "https://raw.githubusercontent.com/nyxgeek/o365recon/refs/heads/master/o365recon.ps1" -Destination $installPath"o365recon.ps1"
+
 # PayloadEverything
 git clone https://github.com/afkfr0mkeyb0ard/PayloadEverything.git $installPath"PayloadEverything"
 
