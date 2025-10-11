@@ -63,6 +63,7 @@ Minimalistic-offensive-security-tools
 Netexec
 Netscan
 Nmap
+O365recon
 PayloadEverything
 PE-bear
 PetitPotam
