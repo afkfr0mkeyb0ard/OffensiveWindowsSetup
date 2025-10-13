@@ -346,3 +346,6 @@ downloadFile -Url "https://github.com/peass-ng/PEASS-ng/releases/download/202510
 downloadFile -Url "https://github.com/TwoSevenOneT/WSASS/releases/download/main/WSASS_Release_1.0.zip" -Destination $installPath"WSASS_Release_1.0.zip"
 Expand-Archive -Path $installPath"WSASS_Release_1.0.zip" -DestinationPath $installPath"WSASS" -Force
 Remove-Item $installPath"WSASS_Release_1.0.zip" -Force
+
+# WSuspicious
+downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/WSuspicious.7z" -Destination $installPath"WSuspicious.7z"
