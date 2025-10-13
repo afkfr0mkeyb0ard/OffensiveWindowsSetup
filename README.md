@@ -96,6 +96,7 @@ WinHex
 Winpeas
 Wireshark
 WSASS
+WSuspicious
 ```
 
 ### Useful tools
