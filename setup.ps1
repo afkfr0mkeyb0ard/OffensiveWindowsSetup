@@ -332,6 +332,9 @@ downloadFile -Url https://live.sysinternals.com/tcpview64.exe -Destination $inst
 # ThreatCheck
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/ThreatCheck.7z" -Destination $installPath"ThreatCheck.7z"
 
+# TIelevated
+downloadFile -Url "https://github.com/valnoxy/TIelevated/releases/download/v1.3.2/TIelevated.exe" -Destination $installPath"TIelevated.exe"
+
 # WindowDetective
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/Window-Detective-3.5.1-setup.exe" -Destination $installPath"Window-Detective-3.5.1-setup.exe"
 
