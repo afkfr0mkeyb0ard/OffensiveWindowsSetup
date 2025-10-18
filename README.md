@@ -91,6 +91,7 @@ Snoop
 SQLite
 Sysinternals
 ThreatCheck
+TIelevated
 WindowDetective
 WinHex
 Winpeas
