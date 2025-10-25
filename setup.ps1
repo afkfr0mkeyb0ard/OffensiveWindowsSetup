@@ -86,6 +86,9 @@ Remove-Item $installPath"aquatone_windows_amd64_1.7.0.zip" -Force
 # Bettercap
 go install github.com/bettercap/bettercap@latest
 
+# Binaryninja
+downloadFile -Url "https://cdn.binary.ninja/installers/binaryninja_free_win64.exe" -Destination $installPath"Binaryninja.exe"
+
 # bloodyAD
 downloadFile -Url "https://github.com/CravateRouge/bloodyAD/releases/download/v2.1.9/bloodyAD.exe" -Destination $installPath"bloodyAD.exe"
 
