@@ -5,6 +5,17 @@ $tempPath = [System.IO.Path]::GetTempPath()
 Add-MpPreference -ExclusionPath $tempPath
 Add-MpPreference -ExclusionPath $installPath
 
+# Set manual updates
+Set-Service wuauserv -StartupType Manual
+
+# Disable Windows Update
+# Stop-Service wuauserv -Force
+# Set-Service wuauserv -StartupType Disabled
+
+# Re-enable Windows Update
+# Set-Service wuauserv -StartupType Automatic
+# Start-Service wuauserv
+
 # Create TOOLS folder
 if (-not (Test-Path -Path $installPath)) {
     New-Item -Path $installPath -ItemType Directory | Out-Null
