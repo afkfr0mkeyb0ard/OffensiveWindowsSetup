@@ -99,6 +99,7 @@ Winpeas
 Wireshark
 WSASS
 WSuspicious
+x64dbg
 ```
 
 ### Useful tools
