@@ -23,6 +23,7 @@ adPEAS-Light
 Akagi
 Aquatone
 Bettercap
+Binaryninja
 bloodyAD
 Burpsuite
 Certify
