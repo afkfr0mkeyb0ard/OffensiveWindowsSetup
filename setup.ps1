@@ -356,3 +356,8 @@ Remove-Item $installPath"WSASS_Release_1.0.zip" -Force
 
 # WSuspicious
 downloadFile -Url "https://github.com/afkfr0mkeyb0ard/OffensiveWindowsSetup/raw/refs/heads/main/tools/WSuspicious.7z" -Destination $installPath"WSuspicious.7z"
+
+# x64dbg
+downloadFile -Url "https://github.com/x64dbg/x64dbg/releases/download/2025.08.19/snapshot_2025-08-19_19-40.zip" -Destination $installPath"x64dbg.zip"
+Expand-Archive -Path $installPath"x64dbg.zip" -DestinationPath $installPath"x64dbg" -Force
+Remove-Item $installPath"x64dbg.zip" -Force
