@@ -88,6 +88,7 @@ SharpDump
 SharpHound
 SharpUp
 SharpWMI
+SilentButDeadly
 Snoop
 SQLite
 Sysinternals
