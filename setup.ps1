@@ -321,6 +321,9 @@ downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/r
 # SharpWMI
 downloadFile -Url "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/refs/heads/master/dotnet%20v4.8.1%20compiled%20binaries/SharpWMI.exe" -Destination $installPath"SharpWMI.exe"
 
+# SilentButDeadly
+downloadFile -Url "https://github.com/loosehose/SilentButDeadly/releases/download/v1.0/SilentButDeadly.exe" -Destination $installPath"SilentButDeadly.exe"
+
 # Snoop
 downloadFile -Url "https://github.com/snoopwpf/snoopwpf/releases/download/v5.1.0/Snoop.5.1.0.signed.msi" -Destination $installPath"Snoop.5.1.0.signed.msi"
 
