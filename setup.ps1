@@ -186,6 +186,11 @@ downloadFile -Url https://github.com/maaaaz/impacket-examples-windows/releases/d
 Expand-Archive -Path $installPath"impacket-windows.zip" -DestinationPath $installPath"impacket-windows" -Force
 Remove-Item $installPath"impacket-windows.zip" -Force
 
+# Invoke-SharpLoader
+downloadFile -Url https://github.com/S3cur3Th1sSh1t/Invoke-SharpLoader/archive/refs/heads/master.zip -Destination $installPath"Invoke-SharpLoader.zip"
+Expand-Archive -Path $installPath"Invoke-SharpLoader.zip" -DestinationPath $installPath"Invoke-SharpLoader" -Force
+Remove-Item $installPath"Invoke-SharpLoader.zip" -Force
+
 # JetBrains dotPeek
 downloadFile -Url https://download.jetbrains.com/resharper/dotUltimate.2024.3.6/JetBrains.dotPeek.2024.3.6.web.exe -Destination $installPath"JetBrains.dotPeek.2024.3.6.web.exe"
 
