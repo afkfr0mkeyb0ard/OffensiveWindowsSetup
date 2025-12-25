@@ -49,6 +49,7 @@ HackBrowserData
 HxDSetup
 ILSpy
 Impacket
+Invoke-SharpLoader
 JetBrains dotPeek
 Kerbrute
 Koh
